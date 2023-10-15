@@ -1,3 +1,4 @@
+// 34 minute
 #include <bits/stdc++.h>
 
 using namespace std; 
@@ -15,9 +16,9 @@ int main () {
     int num_of_zeros = 0; 
     int index = 0;
     while (index + num_of_zeros < counter) {
-        string str_number;
-        cin >> str_number;
-        int number = stoi(str_number);
+        int number;
+        cin >> number;
+
         if (number == 0) {
             num_of_zeros++;
             continue;
