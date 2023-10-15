@@ -1,4 +1,3 @@
-// 34 minute
 #include <bits/stdc++.h>
 
 using namespace std; 
